@@ -32,4 +32,4 @@ jobs:
       - name: Make Maven Wrapper executable
         run: chmod +x mvnw
       - name: Build with Maven
-        run: ./mvnw clean verify
+        run: ./mvnw -ntp verify

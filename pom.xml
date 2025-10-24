@@ -50,6 +50,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.5.7</version>
+                <configuration>
+                    <mainClass>com.bookstore.BookCatalogApplication</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
