@@ -11,5 +11,4 @@ public record PagedResult<T>(
         boolean isLast,
         boolean hasNext,
         boolean hasPrevious
-) {
-}
+){}
