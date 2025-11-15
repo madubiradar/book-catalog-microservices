@@ -12,7 +12,7 @@
     <groupId>com.bookstore</groupId>
     <artifactId>book-catalog-microservices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>book-catalog-microservices</name>
+    <name>catalog-microservices</name>
     <description>book-catalog-microservices</description>
     <url/>
     <licenses>
@@ -34,6 +34,7 @@
     </properties>
     <modules>
         <module>catalog-service</module>
+        <module>order-service</module>
     </modules>
     <dependencies>
         <dependency>
@@ -54,9 +55,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>3.5.7</version>
-                <configuration>
-                    <mainClass>com.bookstore.BookCatalogApplication</mainClass>
-                </configuration>
             </plugin>
         </plugins>
     </build>
